@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100 antialiased;
+}
+
+input {
+  @apply bg-gray-800 border-gray-700 text-gray-100;
+}
+
+input:focus {
+  @apply outline-none ring-2 ring-indigo-500 ring-opacity-50 border-transparent;
+}
+
+input::placeholder {
+  @apply text-gray-500;
+}
